@@ -43,7 +43,6 @@ io.on("connection", (socket) => {
   socket.on("join_room", ({ username, room }) => {
     const name = (username || "").trim();
     const rm = (room || "").trim();
-    console.log("JOIN RECEIVED:", { username, room });
 
     if (!name) {
       socket.emit("error_message", { error: "Name is required to join" });

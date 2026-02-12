@@ -43,7 +43,6 @@ $("#btnJoin").on("click", () => {
     return;
   }
 
-  console.log("JOIN SENDING:", { username: displayName, room });
   socket.emit("join_room", { username: displayName, room });
 });
 
