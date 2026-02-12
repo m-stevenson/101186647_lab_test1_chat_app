@@ -1,0 +1,21 @@
+.chat-box {
+  height: 420px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.msg {
+  margin-bottom: 10px;
+}
+
+.msg .meta {
+  font-size: 12px;
+  color: #777;
+}
+
+.msg .text {
+  font-size: 14px;
+}
