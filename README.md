@@ -1,4 +1,4 @@
-### 101186647 Lab Test 1
+# 101186647 Lab Test 1
 ## Mitchell Stevenson
-# Run with
+### Run with
 `docker compose up -d --build`
